@@ -1,0 +1,21 @@
+description,amount,category,subcategory,style
+"ola to client office in mumbai, traffic jam",120,Travel,Cab/Auto,quick
+"uber airport drop mumbai to bom, late night",250,Travel,Cab/Auto,quick
+"rapido bike to gurgaon site, quick meeting",150,Travel,Cab/Auto,quick
+auto rickshaw to nearby bank for cash withdrawal,80,Travel,Cab/Auto,quick
+"ola shared ride to delhi office, rain",200,Travel,Cab/Auto,quick
+"Auto se client office, traffic jam, 45 mins",120,Travel,Cab/Auto,hinglish
+"Uber airport drop, morning flight",350,Travel,Cab/Auto,hinglish
+Rapido bike se site jaa raha,200,Travel,Cab/Auto,hinglish
+Ola se office se client meeting tak,180,Travel,Cab/Auto,hinglish
+Auto rickshaw se market se stationery kharidi,90,Travel,Cab/Auto,hinglish
+petrol for bike - commuted to client site in bhopal,150,Travel,Fuel,quick
+diesel refill for company car (tata) from bharatpetrol,2100,Travel,Fuel,quick
+"fuel for bike - visit to mumbai office, oct 3",85,Travel,Fuel,quick
+"diesel top-up at hindustan petroleum, delhi route",340,Travel,Fuel,quick
+"petrol for car - sales trip to chennai, via ola app",720,Travel,Fuel,quick
+"Bike ka petrol Nizamuddin se office tak, Rs 350",350,Travel,Fuel,hinglish
+"Company car diesel, Mumbai-Pune highway, Rs 1800",1800,Travel,Fuel,hinglish
+"Bike fuel for client visit at Sector 21, Rs 420",420,Travel,Fuel,hinglish
+"Car diesel for client demo in Gurgaon, Rs 950",950,Travel,Fuel,hinglish
+"Bike petrol for site survey at Kharadi, Rs 300",300,Travel,Fuel,hinglish
