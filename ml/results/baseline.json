@@ -53,5 +53,7 @@
       "f1": 1.0,
       "support": 72.0
     }
-  }
+  },
+  "handmade_category_accuracy": 0.9230769230769231,
+  "handmade_subcategory_accuracy": 0.8692307692307693
 }
