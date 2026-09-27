@@ -1,14 +1,22 @@
+import Image from "next/image";
 import { TextEffect } from "@/components/motion-primitives/text-effect";
 import { FadeIn } from "@/components/site/fade-in";
 
 export function Hero() {
   return (
     <section className="relative overflow-hidden">
-      {/* Soft accent glow. We'll swap this for your Haikei blob later. */}
+      {/* Haikei blurry-gradient background, one per theme, faded into the page at the edges */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -top-40 left-1/2 h-[520px] w-[900px] -translate-x-1/2 rounded-full bg-primary opacity-[0.12] blur-3xl dark:opacity-[0.18]"
-      />
+        className="pointer-events-none absolute inset-0"
+        style={{
+          maskImage: "radial-gradient(120% 95% at 50% 0%, #000 35%, transparent 80%)",
+          WebkitMaskImage: "radial-gradient(120% 95% at 50% 0%, #000 35%, transparent 80%)",
+        }}
+      >
+        <Image src="/hero-light.svg" alt="" fill priority className="object-cover opacity-60 dark:hidden" />
+        <Image src="/hero-dark.svg" alt="" fill priority className="hidden object-cover opacity-90 dark:block" />
+      </div>
 
       <div className="relative mx-auto w-full max-w-5xl px-6 pb-20 pt-28 sm:pt-36">
         <FadeIn>
