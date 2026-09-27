@@ -1,0 +1,131 @@
+id,description,true_subcategory,true_category,llm_subcategory,llm_category,llm_confidence,tokens_in,tokens_out,seconds
+1,client lunch,Client Meal,Food & Beverage,Client Meal,Food & Beverage,0.95,44.85,30.35,0.061730239549069664
+2,tsspdcl bill office,Electricity,Utilities,Electricity,Utilities,0.95,44.85,30.35,0.061730239549069664
+3,local train pass,Train/Bus,Travel,Train/Bus,Travel,0.95,44.85,30.35,0.061730239549069664
+4,switch board repair,Electrical,Repairs & Maintenance,Electrical,Repairs & Maintenance,0.95,44.85,30.35,0.061730239549069664
+5,lpg cylinder,Gas,Utilities,Gas,Utilities,0.95,44.85,30.35,0.061730239549069664
+6,act fibernet,Internet,Communication,Internet,Communication,0.95,44.85,30.35,0.061730239549069664
+7,auto fare,Cab/Auto,Travel,Cab/Auto,Travel,0.95,44.85,30.35,0.061730239549069664
+8,toner refil,IT/Computer Repair,Repairs & Maintenance,Printing/Photocopy,Office Supplies,0.95,44.85,30.35,0.061730239549069664
+9,coffee with prospect starbucks,Client Meal,Food & Beverage,Tea/Snacks,Food & Beverage,0.95,44.85,30.35,0.061730239549069664
+10,flush tank repair,Plumbing,Repairs & Maintenance,Plumbing,Repairs & Maintenance,0.95,44.85,30.35,0.061730239549069664
+11,notary,Govt Fees/Stamp Paper,Miscellaneous,Govt Fees/Stamp Paper,Miscellaneous,0.95,44.85,30.35,0.061730239549069664
+12,auto kukatpally to hitech city,Cab/Auto,Travel,Cab/Auto,Travel,0.95,44.85,30.35,0.061730239549069664
+13,farewell gift for priya,Gifts,Staff Welfare,Gifts,Staff Welfare,0.95,44.85,30.35,0.061730239549069664
+14,snacks,Tea/Snacks,Food & Beverage,Tea/Snacks,Food & Beverage,0.95,44.85,30.35,0.061730239549069664
+15,table drawer lock,Furniture,Repairs & Maintenance,Furniture,Repairs & Maintenance,0.95,44.85,30.35,0.061730239549069664
+16,fan capacitor change,Electrical,Repairs & Maintenance,Electrical,Repairs & Maintenance,0.95,44.85,30.35,0.061730239549069664
+17,dettol bandaids,First Aid,Staff Welfare,First Aid,Staff Welfare,0.95,44.85,30.35,0.061730239549069664
+18,files and folders,Stationery,Office Supplies,Stationery,Office Supplies,0.95,44.85,30.35,0.061730239549069664
+19,others,Other,Miscellaneous,Other,Miscellaneous,0.95,44.85,30.35,0.061730239549069664
+20,"ola to client, gachibowli",Cab/Auto,Travel,Cab/Auto,Travel,0.95,44.85,30.35,0.061730239549069664
+21,sprint dinner 8 ppl,Team Meal,Food & Beverage,Team Meal,Food & Beverage,0.95,44.85,38.0,0.06083118749957066
+22,printouts for tender 120 pages,Printing/Photocopy,Office Supplies,Printing/Photocopy,Office Supplies,0.9,44.85,38.0,0.06083118749957066
+23,swiggy sunday working,Late Working Meal,Food & Beverage,Late Working Meal,Food & Beverage,0.85,44.85,38.0,0.06083118749957066
+24,bisleri can 20l x4,Pantry Supplies,Office Supplies,Pantry Supplies,Office Supplies,0.9,44.85,38.0,0.06083118749957066
+25,ups battery wiring,Electrical,Repairs & Maintenance,IT/Computer Repair,Repairs & Maintenance,0.9,44.85,38.0,0.06083118749957066
+26,gift,Gifts,Staff Welfare,Gifts,Staff Welfare,0.95,44.85,38.0,0.06083118749957066
+27,chair repair,Furniture,Repairs & Maintenance,Furniture,Repairs & Maintenance,0.95,44.85,38.0,0.06083118749957066
+28,jiofiber monthly,Internet,Communication,Internet,Communication,0.95,44.85,38.0,0.06083118749957066
+29,metro recharge,Train/Bus,Travel,Other,Miscellaneous,0.8,44.85,38.0,0.06083118749957066
+30,paid parking near client office,Parking/Toll,Travel,Parking/Toll,Travel,0.95,44.85,38.0,0.06083118749957066
+31,new led bulbs 6,Electrical,Repairs & Maintenance,Electrical,Repairs & Maintenance,0.9,44.85,38.0,0.06083118749957066
+32,tea powder sugar milk,Pantry Supplies,Office Supplies,Pantry Supplies,Office Supplies,0.95,44.85,38.0,0.06083118749957066
+33,parking inorbit,Parking/Toll,Travel,Parking/Toll,Travel,0.95,44.85,38.0,0.06083118749957066
+34,wifi bill,Internet,Communication,Internet,Communication,0.95,44.85,38.0,0.06083118749957066
+35,flight change fee,Flight,Travel,Flight,Travel,0.9,44.85,38.0,0.06083118749957066
+36,night shift dinner,Late Working Meal,Food & Beverage,Late Working Meal,Food & Beverage,0.9,44.85,38.0,0.06083118749957066
+37,rapido 2 trips,Cab/Auto,Travel,Cab/Auto,Travel,0.95,44.85,38.0,0.06083118749957066
+38,dinner staying late for audit,Late Working Meal,Food & Beverage,Late Working Meal,Food & Beverage,0.9,44.85,38.0,0.06083118749957066
+39,xerox,Printing/Photocopy,Office Supplies,Printing/Photocopy,Office Supplies,0.95,44.85,38.0,0.06083118749957066
+40,misc,Other,Miscellaneous,Other,Miscellaneous,0.8,44.85,38.0,0.06083118749957066
+41,water cans,Pantry Supplies,Office Supplies,Pantry Supplies,Office Supplies,0.95,44.8,31.05,0.0567156208504457
+42,hp pump bike fuel,Fuel,Travel,Fuel,Travel,0.95,44.8,31.05,0.0567156208504457
+43,plumber,Plumbing,Repairs & Maintenance,Plumbing,Repairs & Maintenance,0.95,44.8,31.05,0.0567156208504457
+44,lunch w/ client at taj krishna,Client Meal,Food & Beverage,Client Meal,Food & Beverage,0.95,44.8,31.05,0.0567156208504457
+45,paid cash,Other,Miscellaneous,Other,Miscellaneous,0.9,44.8,31.05,0.0567156208504457
+46,wedding gift colleague,Gifts,Staff Welfare,Gifts,Staff Welfare,0.95,44.8,31.05,0.0567156208504457
+47,given to peon,Other,Miscellaneous,Gifts,Staff Welfare,0.9,44.8,31.05,0.0567156208504457
+48,pendrive 32gb,IT/Computer Repair,Repairs & Maintenance,IT/Computer Repair,Repairs & Maintenance,0.95,44.8,31.05,0.0567156208504457
+49,current bill,Electricity,Utilities,Electricity,Utilities,0.95,44.8,31.05,0.0567156208504457
+50,hdmi cable,IT/Computer Repair,Repairs & Maintenance,IT/Computer Repair,Repairs & Maintenance,0.95,44.8,31.05,0.0567156208504457
+51,air tkt,Flight,Travel,Flight,Travel,0.95,44.8,31.05,0.0567156208504457
+52,team khana,Team Meal,Food & Beverage,Team Meal,Food & Beverage,0.95,44.8,31.05,0.0567156208504457
+53,vendor meeting dinner,Client Meal,Food & Beverage,Client Meal,Food & Beverage,0.95,44.8,31.05,0.0567156208504457
+54,airtel bill office sim,Mobile Recharge,Communication,Mobile Recharge,Communication,0.95,44.8,31.05,0.0567156208504457
+55,chai 10 cups,Tea/Snacks,Food & Beverage,Tea/Snacks,Food & Beverage,0.95,44.8,31.05,0.0567156208504457
+56,chair wheels replace,Furniture,Repairs & Maintenance,Furniture,Repairs & Maintenance,0.95,44.8,31.05,0.0567156208504457
+57,jio recharge,Mobile Recharge,Communication,Mobile Recharge,Communication,0.95,44.8,31.05,0.0567156208504457
+58,sticky notes register,Stationery,Office Supplies,Stationery,Office Supplies,0.95,44.8,31.05,0.0567156208504457
+59,zomato 10pm deployment,Late Working Meal,Food & Beverage,Late Working Meal,Food & Beverage,0.95,44.8,31.05,0.0567156208504457
+60,first aid box,First Aid,Staff Welfare,First Aid,Staff Welfare,0.95,44.8,31.05,0.0567156208504457
+61,generator diesel 20L,Electricity,Utilities,Electricity,Utilities,0.95,44.65,38.15,0.0618691895986558
+62,mouse keyboard,IT/Computer Repair,Repairs & Maintenance,IT/Computer Repair,Repairs & Maintenance,0.95,44.65,38.15,0.0618691895986558
+63,akasa air ticket client meet,Flight,Travel,Flight,Travel,0.95,44.65,38.15,0.0618691895986558
+64,dd charges,Bank Charges,Miscellaneous,Bank Charges,Miscellaneous,0.95,44.65,38.15,0.0618691895986558
+65,paper cups plates,Pantry Supplies,Office Supplies,Pantry Supplies,Office Supplies,0.95,44.65,38.15,0.0618691895986558
+66,dishwash liquid pantry,Pantry Supplies,Office Supplies,Pantry Supplies,Office Supplies,0.95,44.65,38.15,0.0618691895986558
+67,irani chai osmania biscuit,Tea/Snacks,Food & Beverage,Tea/Snacks,Food & Beverage,0.95,44.65,38.15,0.0618691895986558
+68,new year decoration,Celebration,Staff Welfare,Celebration,Staff Welfare,0.95,44.65,38.15,0.0618691895986558
+69,cheque book,Bank Charges,Miscellaneous,Bank Charges,Miscellaneous,0.95,44.65,38.15,0.0618691895986558
+70,vi recharge field staff,Mobile Recharge,Communication,Mobile Recharge,Communication,0.95,44.65,38.15,0.0618691895986558
+71,orr toll,Parking/Toll,Travel,Parking/Toll,Travel,0.95,44.65,38.15,0.0618691895986558
+72,hmwssb water bill,Water,Utilities,Water,Utilities,0.95,44.65,38.15,0.0618691895986558
+73,diwali sweets office,Celebration,Staff Welfare,Celebration,Staff Welfare,0.95,44.65,38.15,0.0618691895986558
+74,crocin strips for office kit,First Aid,Staff Welfare,First Aid,Staff Welfare,0.95,44.65,38.15,0.0618691895986558
+75,cake,Celebration,Staff Welfare,Celebration,Staff Welfare,0.95,44.65,38.15,0.0618691895986558
+76,neft charges,Bank Charges,Miscellaneous,Bank Charges,Miscellaneous,0.95,44.65,38.15,0.0618691895986558
+77,pens markers,Stationery,Office Supplies,Stationery,Office Supplies,0.95,44.65,38.15,0.0618691895986558
+78,toll charges hyd vja,Parking/Toll,Travel,Parking/Toll,Travel,0.95,44.65,38.15,0.0618691895986558
+79,printer cartridge,IT/Computer Repair,Repairs & Maintenance,Printing/Photocopy,Office Supplies,0.95,44.65,38.15,0.0618691895986558
+80,electricity,Electricity,Utilities,Electricity,Utilities,0.95,44.65,38.15,0.0618691895986558
+81,tsrtc bus hyd to warangal,Train/Bus,Travel,Train/Bus,Travel,0.95,45.15,31.45,0.05168281875085086
+82,fastag topup,Parking/Toll,Travel,Parking/Toll,Travel,0.9,45.15,31.45,0.05168281875085086
+83,cupboard hinge,Furniture,Repairs & Maintenance,Furniture,Repairs & Maintenance,0.9,45.15,31.45,0.05168281875085086
+84,coffee for interview panel,Tea/Snacks,Food & Beverage,Tea/Snacks,Food & Beverage,0.9,45.15,31.45,0.05168281875085086
+85,water tanker,Water,Utilities,Water,Utilities,0.95,45.15,31.45,0.05168281875085086
+86,birthday cake for ravi,Celebration,Staff Welfare,Celebration,Staff Welfare,0.9,45.15,31.45,0.05168281875085086
+87,dtdc to chennai,Courier/Postage,Communication,Train/Bus,Travel,0.95,45.15,31.45,0.05168281875085086
+88,indigo hyd-del,Flight,Travel,Flight,Travel,0.95,45.15,31.45,0.05168281875085086
+89,medical kit refill,First Aid,Staff Welfare,First Aid,Staff Welfare,0.9,45.15,31.45,0.05168281875085086
+90,samosa + tea for meeting,Tea/Snacks,Food & Beverage,Tea/Snacks,Food & Beverage,0.9,45.15,31.45,0.05168281875085086
+91,volvo bus blr,Train/Bus,Travel,Train/Bus,Travel,0.95,45.15,31.45,0.05168281875085086
+92,blue dart docs mumbai,Courier/Postage,Communication,Courier/Postage,Communication,0.9,45.15,31.45,0.05168281875085086
+93,uber to vendor site shamshabad,Cab/Auto,Travel,Cab/Auto,Travel,0.9,45.15,31.45,0.05168281875085086
+94,cylinder,Gas,Utilities,Gas,Utilities,0.9,45.15,31.45,0.05168281875085086
+95,sundry,Other,Miscellaneous,Other,Miscellaneous,0.7,45.15,31.45,0.05168281875085086
+96,staplr pins,Stationery,Office Supplies,Stationery,Office Supplies,0.9,45.15,31.45,0.05168281875085086
+97,tanker 2 loads,Water,Utilities,Water,Utilities,0.95,45.15,31.45,0.05168281875085086
+98,courier,Courier/Postage,Communication,Courier/Postage,Communication,0.9,45.15,31.45,0.05168281875085086
+99,bank fee,Bank Charges,Miscellaneous,Bank Charges,Miscellaneous,0.9,45.15,31.45,0.05168281875085086
+100,affidavit charges,Govt Fees/Stamp Paper,Miscellaneous,Govt Fees/Stamp Paper,Miscellaneous,0.9,45.15,31.45,0.05168281875085086
+101,advance adjustment,Other,Miscellaneous,Other,Miscellaneous,0.7,45.4,29.4,0.04656528335035546
+102,washroom tap leak fix,Plumbing,Repairs & Maintenance,Plumbing,Repairs & Maintenance,0.95,45.4,29.4,0.04656528335035546
+103,pizza party after release,Team Meal,Food & Beverage,Team Meal,Food & Beverage,0.98,45.4,29.4,0.04656528335035546
+104,irctc tatkal ticket,Train/Bus,Travel,Train/Bus,Travel,0.99,45.4,29.4,0.04656528335035546
+105,porter pickup samples,Courier/Postage,Communication,Courier/Postage,Communication,0.9,45.4,29.4,0.04656528335035546
+106,trade licence renewal fee,Govt Fees/Stamp Paper,Miscellaneous,Govt Fees/Stamp Paper,Miscellaneous,0.95,45.4,29.4,0.04656528335035546
+107,spiral binding 3 copies,Printing/Photocopy,Office Supplies,Printing/Photocopy,Office Supplies,0.97,45.4,29.4,0.04656528335035546
+108,speed post legal notice,Courier/Postage,Communication,Courier/Postage,Communication,0.99,45.4,29.4,0.04656528335035546
+109,flowers new joiner,Gifts,Staff Welfare,Gifts,Staff Welfare,0.96,45.4,29.4,0.04656528335035546
+110,lunch for team,Team Meal,Food & Beverage,Team Meal,Food & Beverage,0.98,45.4,29.4,0.04656528335035546
+111,pertol bike 2 ltrs,Fuel,Travel,Fuel,Travel,0.99,45.4,29.4,0.04656528335035546
+112,lamination id cards,Printing/Photocopy,Office Supplies,Printing/Photocopy,Office Supplies,0.97,45.4,29.4,0.04656528335035546
+113,colour prnt brochure,Printing/Photocopy,Office Supplies,Printing/Photocopy,Office Supplies,0.97,45.4,29.4,0.04656528335035546
+114,fuel,Fuel,Travel,Fuel,Travel,0.99,45.4,29.4,0.04656528335035546
+115,cab back home after late release 11pm,Cab/Auto,Travel,Cab/Auto,Travel,0.99,45.4,29.4,0.04656528335035546
+116,team lunch paradise biryani,Team Meal,Food & Beverage,Team Meal,Food & Beverage,0.98,45.4,29.4,0.04656528335035546
+117,recharge,Mobile Recharge,Communication,Mobile Recharge,Communication,0.99,45.4,29.4,0.04656528335035546
+118,stamp paper 100rs,Govt Fees/Stamp Paper,Miscellaneous,Govt Fees/Stamp Paper,Miscellaneous,0.95,45.4,29.4,0.04656528335035546
+119,shared auto to office,Cab/Auto,Travel,Cab/Auto,Travel,0.99,45.4,29.4,0.04656528335035546
+120,electrician charges,Electrical,Repairs & Maintenance,Electrical,Repairs & Maintenance,0.95,45.4,29.4,0.04656528335035546
+121,a4 rim 2,Stationery,Office Supplies,Stationery,Office Supplies,0.95,77.0,32.4,0.6876716792001389
+122,petrol reimbursement site visit 40km,Fuel,Travel,Fuel,Travel,0.95,77.0,32.4,0.6876716792001389
+123,data card recharge,Internet,Communication,Internet,Communication,0.95,77.0,32.4,0.6876716792001389
+124,ganesh pooja items,Celebration,Staff Welfare,Celebration,Staff Welfare,0.95,77.0,32.4,0.6876716792001389
+125,diesel for delivery van,Fuel,Travel,Fuel,Travel,0.95,77.0,32.4,0.6876716792001389
+126,meru cab,Cab/Auto,Travel,Cab/Auto,Travel,0.95,77.0,32.4,0.6876716792001389
+127,laptop screen repair,IT/Computer Repair,Repairs & Maintenance,IT/Computer Repair,Repairs & Maintenance,0.95,77.0,32.4,0.6876716792001389
+128,gas refill pantry,Gas,Utilities,Gas,Utilities,0.95,77.0,32.4,0.6876716792001389
+129,biscuits,Tea/Snacks,Food & Beverage,Tea/Snacks,Food & Beverage,0.95,77.0,32.4,0.6876716792001389
+130,pipe block cleaning,Plumbing,Repairs & Maintenance,Plumbing,Repairs & Maintenance,0.95,77.0,32.4,0.6876716792001389
