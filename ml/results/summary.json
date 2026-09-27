@@ -1,0 +1,269 @@
+{
+  "test_set": "hand-made (130 rows)",
+  "assumptions": {
+    "expenses_per_month": 2000,
+    "minutes_to_tag": 1.0,
+    "minutes_to_fix": 3.0,
+    "usd_to_inr": 88
+  },
+  "manual_hours_per_month": 33.3,
+  "approaches": [
+    {
+      "name": "Baseline",
+      "detail": "TF-IDF + Logistic Regression",
+      "category_accuracy": 0.9230769230769231,
+      "subcategory_accuracy": 0.8692307692307693,
+      "cost_per_1000_inr": 0.0,
+      "latency_ms": 0.08171852256965809,
+      "share_to_llm": 0.0,
+      "hours_saved_per_month": 20.3,
+      "monthly_cost_inr": 0.0
+    },
+    {
+      "name": "LLM",
+      "detail": "openai/gpt-oss-20b",
+      "category_accuracy": 0.9615384615384616,
+      "subcategory_accuracy": 0.9461538461538461,
+      "cost_per_1000_inr": 1.1845476923076923,
+      "latency_ms": 105.11233526138733,
+      "share_to_llm": 1.0,
+      "hours_saved_per_month": 27.9,
+      "monthly_cost_inr": 2.37
+    },
+    {
+      "name": "Hybrid",
+      "detail": "Baseline first, LLM when confidence < 0.8",
+      "category_accuracy": 0.9692307692307692,
+      "subcategory_accuracy": 0.9538461538461539,
+      "cost_per_1000_inr": 0.5445228461538462,
+      "latency_ms": 45.735945145298196,
+      "share_to_llm": 0.46153846153846156,
+      "hours_saved_per_month": 28.7,
+      "monthly_cost_inr": 1.09
+    }
+  ],
+  "synthetic_test_baseline": {
+    "category_accuracy": 0.9636098981077147,
+    "subcategory_accuracy": 0.9344978165938864
+  },
+  "per_category_baseline_synthetic": {
+    "Communication": {
+      "precision": 0.961038961038961,
+      "recall": 0.9866666666666667,
+      "f1": 0.9736842105263158,
+      "support": 75.0
+    },
+    "Food & Beverage": {
+      "precision": 0.9509803921568627,
+      "recall": 0.97,
+      "f1": 0.9603960396039604,
+      "support": 100.0
+    },
+    "Miscellaneous": {
+      "precision": 0.9491525423728814,
+      "recall": 0.7887323943661971,
+      "f1": 0.8615384615384616,
+      "support": 71.0
+    },
+    "Office Supplies": {
+      "precision": 0.8888888888888888,
+      "recall": 0.96,
+      "f1": 0.9230769230769231,
+      "support": 75.0
+    },
+    "Repairs & Maintenance": {
+      "precision": 0.98989898989899,
+      "recall": 1.0,
+      "f1": 0.9949238578680203,
+      "support": 98.0
+    },
+    "Staff Welfare": {
+      "precision": 1.0,
+      "recall": 0.9577464788732394,
+      "f1": 0.9784172661870504,
+      "support": 71.0
+    },
+    "Travel": {
+      "precision": 0.9689922480620154,
+      "recall": 1.0,
+      "f1": 0.984251968503937,
+      "support": 125.0
+    },
+    "Utilities": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 72.0
+    }
+  },
+  "hybrid_sweep": [
+    {
+      "threshold": 0.0,
+      "share_to_llm": 0.0,
+      "category_accuracy": 0.9230769230769231,
+      "subcategory_accuracy": 0.8692307692307693,
+      "cost_per_1000_inr": 0.0,
+      "latency_ms": 0.1
+    },
+    {
+      "threshold": 0.05,
+      "share_to_llm": 0.0,
+      "category_accuracy": 0.9230769230769231,
+      "subcategory_accuracy": 0.8692307692307693,
+      "cost_per_1000_inr": 0.0,
+      "latency_ms": 0.1
+    },
+    {
+      "threshold": 0.1,
+      "share_to_llm": 0.007692307692307693,
+      "category_accuracy": 0.9307692307692308,
+      "subcategory_accuracy": 0.8769230769230769,
+      "cost_per_1000_inr": 0.008275384615384615,
+      "latency_ms": 0.4581944873104261
+    },
+    {
+      "threshold": 0.15,
+      "share_to_llm": 0.023076923076923078,
+      "category_accuracy": 0.9384615384615385,
+      "subcategory_accuracy": 0.8846153846153846,
+      "cost_per_1000_inr": 0.02513076923076923,
+      "latency_ms": 1.2526629811627423
+    },
+    {
+      "threshold": 0.2,
+      "share_to_llm": 0.046153846153846156,
+      "category_accuracy": 0.9538461538461539,
+      "subcategory_accuracy": 0.9076923076923077,
+      "cost_per_1000_inr": 0.05216538461538462,
+      "latency_ms": 2.6397018273025203
+    },
+    {
+      "threshold": 0.25,
+      "share_to_llm": 0.1,
+      "category_accuracy": 0.9538461538461539,
+      "subcategory_accuracy": 0.9230769230769231,
+      "cost_per_1000_inr": 0.11516238461538461,
+      "latency_ms": 10.500426955378718
+    },
+    {
+      "threshold": 0.3,
+      "share_to_llm": 0.11538461538461539,
+      "category_accuracy": 0.9538461538461539,
+      "subcategory_accuracy": 0.9230769230769231,
+      "cost_per_1000_inr": 0.1340916923076923,
+      "latency_ms": 16.2650570996034
+    },
+    {
+      "threshold": 0.35,
+      "share_to_llm": 0.16153846153846155,
+      "category_accuracy": 0.9384615384615385,
+      "subcategory_accuracy": 0.9153846153846154,
+      "cost_per_1000_inr": 0.1877166923076923,
+      "latency_ms": 18.999629262640905
+    },
+    {
+      "threshold": 0.4,
+      "share_to_llm": 0.18461538461538463,
+      "category_accuracy": 0.9384615384615385,
+      "subcategory_accuracy": 0.9153846153846154,
+      "cost_per_1000_inr": 0.21485030769230767,
+      "latency_ms": 20.347954246476107
+    },
+    {
+      "threshold": 0.45,
+      "share_to_llm": 0.2153846153846154,
+      "category_accuracy": 0.9538461538461539,
+      "subcategory_accuracy": 0.9307692307692308,
+      "cost_per_1000_inr": 0.2502999230769231,
+      "latency_ms": 22.0546135899369
+    },
+    {
+      "threshold": 0.5,
+      "share_to_llm": 0.23076923076923078,
+      "category_accuracy": 0.9538461538461539,
+      "subcategory_accuracy": 0.9307692307692308,
+      "cost_per_1000_inr": 0.2702877692307692,
+      "latency_ms": 22.990478013007216
+    },
+    {
+      "threshold": 0.55,
+      "share_to_llm": 0.25384615384615383,
+      "category_accuracy": 0.9538461538461539,
+      "subcategory_accuracy": 0.9384615384615385,
+      "cost_per_1000_inr": 0.2985713076923077,
+      "latency_ms": 24.292521554919382
+    },
+    {
+      "threshold": 0.6,
+      "share_to_llm": 0.3153846153846154,
+      "category_accuracy": 0.9538461538461539,
+      "subcategory_accuracy": 0.9307692307692308,
+      "cost_per_1000_inr": 0.3727070769230769,
+      "latency_ms": 27.955765176433253
+    },
+    {
+      "threshold": 0.65,
+      "share_to_llm": 0.33076923076923076,
+      "category_accuracy": 0.9538461538461539,
+      "subcategory_accuracy": 0.9307692307692308,
+      "cost_per_1000_inr": 0.3931899230769231,
+      "latency_ms": 33.71347953566178
+    },
+    {
+      "threshold": 0.7,
+      "share_to_llm": 0.38461538461538464,
+      "category_accuracy": 0.9615384615384616,
+      "subcategory_accuracy": 0.9384615384615385,
+      "cost_per_1000_inr": 0.45740538461538455,
+      "latency_ms": 36.71484958412563
+    },
+    {
+      "threshold": 0.75,
+      "share_to_llm": 0.4153846153846154,
+      "category_accuracy": 0.9615384615384616,
+      "subcategory_accuracy": 0.9384615384615385,
+      "cost_per_1000_inr": 0.49171776923076915,
+      "latency_ms": 38.265724504148004
+    },
+    {
+      "threshold": 0.8,
+      "share_to_llm": 0.46153846153846156,
+      "category_accuracy": 0.9692307692307692,
+      "subcategory_accuracy": 0.9538461538461539,
+      "cost_per_1000_inr": 0.5445228461538462,
+      "latency_ms": 45.735945145298196
+    },
+    {
+      "threshold": 0.85,
+      "share_to_llm": 0.5307692307692308,
+      "category_accuracy": 0.9692307692307692,
+      "subcategory_accuracy": 0.9538461538461539,
+      "cost_per_1000_inr": 0.6286271538461538,
+      "latency_ms": 49.711893479136926
+    },
+    {
+      "threshold": 0.9,
+      "share_to_llm": 0.6,
+      "category_accuracy": 0.9692307692307692,
+      "subcategory_accuracy": 0.9538461538461539,
+      "cost_per_1000_inr": 0.7142367692307692,
+      "latency_ms": 68.16137625298173
+    },
+    {
+      "threshold": 0.95,
+      "share_to_llm": 0.7230769230769231,
+      "category_accuracy": 0.9615384615384616,
+      "subcategory_accuracy": 0.9461538461538461,
+      "cost_per_1000_inr": 0.860706,
+      "latency_ms": 75.29341078868956
+    },
+    {
+      "threshold": 1.0,
+      "share_to_llm": 1.0,
+      "category_accuracy": 0.9615384615384616,
+      "subcategory_accuracy": 0.9461538461538461,
+      "cost_per_1000_inr": 1.1845476923076923,
+      "latency_ms": 105.21233526138728
+    }
+  ]
+}
