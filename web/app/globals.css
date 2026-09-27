@@ -145,3 +145,10 @@
   font-family: var(--font-geist-mono);
   font-variant-numeric: tabular-nums;
 }
+
+/* Big headline numbers: sans with equal-width digits (tighter than mono at large sizes) */
+.stat {
+  font-family: var(--font-geist-sans);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+}
